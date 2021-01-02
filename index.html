@@ -1,35 +1,54 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
 
-    
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
-</head>    
+  <meta charset="utf-8">
+
+  <title>Google Homepage</title>
+  <meta name="viewport" content="google">
+  <meta name="AlexCph" content="SitePoint">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
 <body>
-<div class="top-links">
-    <a href="mail.google.com">Gmail</a>
-    <a href="https://www.google.co.th/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
+    <div class="navbar">
+      <a href="mail.google.com" class="toplink">Gmail</a>
+      <a href="https://www.google.co.th/imghp?hl=en&tab=wi&authuser=0&ogbl" class="toplink">Images</a>
+      <a href="#" class="topimage"><img src="/images/appicon.png" class="topimage2"></a>
+      <a href="#" class="toplink" id="signin">Sign in</a>
+    </div>
     
-</div>
-   
-    
- <img class="logo-top" src="/images/googlelogo_color_272x92dp.png" alt="google logo">
+    <div id="main">
+      <a href="#"><img id="logo" src="/images/googlelogo_color_272x92dp.png" alt="google logo"></a>
+    </div> 
+
+    <div id="search-bar">  
+        <div id="search-icon1">X</div>
+        <input type="text" id="search-field">
+        <div id="search-icon2">Y</div>
+    </div>
+      
+    <div id="buttons">
+        <div class="button">Google Search</div>
+        <div class="button">I'm Feeling Lucky</div>
+    </div>
+      
+    <div id="language">Google is offered in <a href="#" id="language-link">ภาษาไทย</a></div>
+
+      
+
     
 
-   <div id="wide-div">
-    <div id="search-div">
-        <div class="inside-search-div">
-            <div class="icon-div"><img class="search-icon" src="/images/ic_search_48px-512.webp"></div>
-            <form class="search-field">
-                <input class="input-field" type="text" name="search">
-            </form>   
+    <div id="footer">
+        <div id="footer1">Thailand</div>
+        
+        <div id="footer2">
+            <a href="#" class="left-footer">Advertising</a><a href="#" class="left-footer">Business</a><a href="#" class="left-footer">About</a><a href="#" class="left-footer">How Search Works</a><a href="#" class="right-footer">Privacy</a><a href="#" class="right-footer">Terms</a><a href="#" class="right-footer">Settings</a>
         </div>
-    
         
     </div>
-
-
-   </div> 
-    
+  
 </body>
 </html>
